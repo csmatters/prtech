@@ -1,9 +1,13 @@
 import React from 'react'
 import Contact from '../components/contact'
+import { Helmet } from "react-helmet";
 
 function ContactPage() {
   return (
     <>
+      <Helmet>
+        <title>Contact Us - PR Tech</title>
+      </Helmet>
       <div className='bg-gradient-to-r from-red-500 via-yellow-500 to-violet-500 px-8'>
         <div className='container mx-auto py-7'>
             <h1 className='text-4xl text-white font-semibold '>Contact us</h1>

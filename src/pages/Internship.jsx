@@ -1,7 +1,12 @@
 import React from 'react'
+import { Helmet } from "react-helmet";
 
 function Internship() {
   return (
+    <>
+      <Helmet>
+        <title>Intership - PR Tech</title>
+      </Helmet>
     <section className="bg-gradient-to-b from-gray-950 via-gray-900 to-gray-950 text-white py-16 px-4">
   <div className="container mx-auto max-w-7xl">
     
@@ -80,6 +85,8 @@ function Internship() {
   </div>
 </section>
 
+    </>
+    
   )
 }
 

@@ -1,17 +1,21 @@
 import { FaCode, FaPaintBrush, FaMobileAlt, FaServer, FaLock, FaRocket } from "react-icons/fa";
 import ServiceCard from "../components/ServiceCard";
+import { Helmet } from "react-helmet";
 
 function ServicesPage() {
   return (
-    <main className="bg-white text-gray-800">
+    <>
+       <Helmet>
+          <title>Services - PR Tech</title>
+        </Helmet>
+        <main className="bg-white text-gray-800">
       
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-red-500 via-yellow-500 to-violet-500 text-white py-20 px-6 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl sm:text-5xl font-bold mb-4">Our Services</h1>
           <p className="text-lg sm:text-xl opacity-90">
-            We offer end-to-end digital solutions tailored to your business needs. 
-            Explore what we do best!
+            We offer end-to-end digital solutions tailored to your business needs. Explore what we do best!
           </p>
         </div>
       </section>
@@ -84,6 +88,8 @@ function ServicesPage() {
         </div>
       </section>
     </main>
+    </>
+    
   );
 }
 

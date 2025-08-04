@@ -1,6 +1,7 @@
 import React from 'react';
 import bannerImage from "../assets/images/banner-image.jpg";
 import bannerBgImage from "../assets/images/banner-background-homepage.jpg";
+import { Link } from 'react-router-dom'
 
 function Hero() {
   return (
@@ -18,8 +19,8 @@ function Hero() {
                 <h1 className='text-5xl font-bold'>Build What's Next <br/>with AI</h1>
                 <p>We engineer intelligent, scalable, and future-proof software solutions that transform complex challenges into competitive advantages. Stop adapting to the future—start building it.</p>
                 <div className='flex gap-4 justify-center md:justify-start'>
-                  <button className='px-4 py-2 bg-gray-950 text-white rounded-lg'>Innovate With Us</button>
-                  <button className='px-4 py-2 text-gray-950 border-gray-950 border border-1 rounded-lg'>Explore Our Work</button>
+                  <Link to="/contact" className='px-4 py-2 bg-gray-950 text-white rounded-lg'>Innovate With Us</Link>
+                  <Link to="/services" className='px-4 py-2 text-gray-950 border-gray-950 border border-1 rounded-lg'>What we offer</Link>
                 </div>
               </div>
               <div className='p-4'>

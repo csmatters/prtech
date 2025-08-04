@@ -3,6 +3,8 @@ import agents from "../assets/images/discussion.jpg";
 import Anshu from "../assets/images/01.jpg";
 import Mayank from "../assets/images/02.jpg";
 import Yash from "../assets/images/03.jpg";
+import { Helmet } from "react-helmet";
+
 
 function AboutPage() {
 
@@ -28,6 +30,9 @@ function AboutPage() {
   ] 
   return (
     <>
+      <Helmet>
+        <title>About Us - PR Tech</title>
+      </Helmet>
        <div className='bg-gradient-to-r from-red-500 via-yellow-500 to-violet-500 px-8'>
         <div className='container mx-auto py-7'>
             <h1 className='text-4xl text-white font-semibold '>About us</h1>
