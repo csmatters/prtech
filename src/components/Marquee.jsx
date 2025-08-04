@@ -24,7 +24,7 @@ const Marquee = () => {
   ];
 
   return (
-    <div className="container mx-auto py-10">
+    <div className="container mx-auto overflow-hidden py-10">
       <MarqueeItem images={upperMarquee} from={0} to={"-100%"} />
       <br/>
       <MarqueeItem images={lowerMarquee} from={"-100%"} to={0} />
