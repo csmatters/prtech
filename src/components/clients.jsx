@@ -6,7 +6,7 @@ import inara from "../assets/images/inara-300x134.png";
 import GauravKothari from "../assets/images/Gaurav-Kothari.png";
 import utsav from "../assets/images/utsav-300x139.png";
 import patric from "../assets/images/patric-300x137.png";
-import ngpnews from "../assets/images/ngp-news-300X195.png";
+import ngpnews from "../assets/images/ngp-news-300x195.png";
 import beyondDestination from "../assets/images/beyond-destination-logo-300x188.png"
 import gurudev from "../assets/images/gurudev-300x177.png";
 import microparklogistics from "../assets/images/micropark-logo-300x45.png";
