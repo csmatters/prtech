@@ -2,7 +2,7 @@ import React from 'react'
 
 import amlaamrut from "../assets/images/amlaamrut-300x146.png";
 import ecogurjan from "../assets/images/eco-gurjan-300x140.png";
-import inara from "../assets/images/inara-300X134.png";
+import inara from "../assets/images/inara-300x134.png";
 import GauravKothari from "../assets/images/Gaurav-Kothari.png";
 import utsav from "../assets/images/utsav-300x139.png";
 import patric from "../assets/images/patric-300x137.png";
