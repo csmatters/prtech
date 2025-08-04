@@ -7,7 +7,7 @@ import JS from "../assets/images/javascript.png";
 import reactjs from "../assets/images/ReactJS1.png";
 import nodejs from "../assets/images/nodejs.webp";
 import MySQLLogo from "../assets/images/MySQL-Logo.jpg";
-import mongodb from "../assets/images/mongoDB_Logo.png";
+import mongodb from "../assets/images/MongoDB_Logo.png";
 import nextjs from "../assets/images/nextjs.png";
 import aws from "../assets/images/amazon-web.png"
 import java from "../assets/images/java-logo.png";
