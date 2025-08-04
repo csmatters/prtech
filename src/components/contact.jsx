@@ -17,7 +17,7 @@ function Contact() {
                 </div>
             </div>
 
-            <form class="space-y-4">
+            <form class="space-y-4" action="https://submit-form.com/l13XPC0F3">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <input type="text" placeholder="First Name" class="border border-gray-400 px-4 py-2 w-full" />
                     <input type="text" placeholder="Last Name" class="border border-gray-400 px-4 py-2 w-full" />

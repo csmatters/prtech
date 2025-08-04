@@ -37,26 +37,37 @@ function Projects() {
   ];
 
   return (
-    <section className='bg-gray-200 py-8'>
-         <div className='container mx-auto my-10'>
+    <section className="bg-gray-200 py-8">
+  <div className="container mx-auto px-4 my-10">
+    <h2 className="text-3xl sm:text-4xl font-semibold text-center mb-4">
+      Our Projects
+    </h2>
+    <p className="text-center text-sm sm:text-base mb-10">
+      Our latest project we have done for the clients
+    </p>
 
-            <h2 className='text-3xl font-semibold text-center mb-4'>Our Projects</h2>
+    {/* Responsive masonry-style grid */}
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      {projects.map((project, index) => (
+        <div key={index} className="w-full">
+          <a
+            href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block overflow-hidden rounded-xl shadow-md hover:shadow-lg transition duration-300"
+          >
+            <img
+              src={project.src}
+              alt={project.alt}
+              className="w-full h-auto object-cover rounded-xl"
+            />
+          </a>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
 
-            <p className='text-center mb-10'>Our latest project we have done for the clients</p>
-
-            <div className='columns-2 md:columns-4 gap-4 space-y-4'>
-              {
-                projects.map((project, index) => (
-                  <div key={index} className="break-inside-avoid pb-2">
-                    <a href={project.link} target="_blank" rel="noopener noreferrer">
-                      <img className="w-full rounded-xl shadow" src={project.src} width="232" alt={project.alt} />
-                    </a>
-                  </div>
-              ))}
-            </div>
-
-          </div>
-    </section>
   )
 }
 
