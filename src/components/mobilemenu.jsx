@@ -8,7 +8,7 @@ function Mobilemenu({toggle, onClose}) {
         <span className='self-end mt-4'><IoCloseCircleOutline className='text-4xl mt-2 pr-2 text-gray-500' onClick={onClose}/></span>
         <div className='flex flex-col gap-3 pl-4 mt-4'>
             <Link to="/" className='font-semibold'>Home</Link>
-            <Link to="/about" className='font-semibold'>About Us</Link>
+            <Link to="/aboutus" className='font-semibold'>About Us</Link>
             <Link to="/services" className='font-semibold'>Services</Link>
             <Link to="/internship" className='font-semibold'>Intrnship Programme</Link>
             <Link to="/contact" className='font-semibold'>Contact</Link>
