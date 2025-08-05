@@ -10,7 +10,7 @@ function Mobilemenu({toggle, onClose}) {
             <Link to="/" className='font-semibold'>Home</Link>
             <Link to="/about" className='font-semibold'>About Us</Link>
             <Link to="/services" className='font-semibold'>Services</Link>
-            <Link to="/our-products" className='font-semibold'>Our Products</Link>
+            <Link to="/internship" className='font-semibold'>Intrnship Programme</Link>
             <Link to="/contact" className='font-semibold'>Contact</Link>
         </div>
         
