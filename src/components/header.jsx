@@ -38,7 +38,7 @@ function Header() {
                             <span className='p-1 rounded-full bg-black'>
                                 <MdPhone className='text-1xl text-white'/>
                             </span> &nbsp;&nbsp; 
-                            <span className='font-semibold text-gray-300'> +91 - 866 855 9558</span>
+                            <span className='font-semibold text-gray-300'> +91 - 866 876 9915</span>
                         </div>
                     </div>
                     <div className='text-end flex flex-row gap-3'>
