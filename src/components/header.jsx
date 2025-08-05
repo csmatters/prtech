@@ -68,7 +68,7 @@ function Header() {
                         <span className='p-1 rounded-full bg-black'>
                             <MdPhone className='text-1xl text-white'/>
                         </span> &nbsp;&nbsp;
-                        <span className='font-semibold'> +91 - 866 855 9558</span>
+                        <span className='font-semibold'> +91 - 866 876 9915</span>
                     </p>
                 </div>
             </div>
